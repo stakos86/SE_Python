@@ -16,7 +16,7 @@ PREDICTIONS_FILE = 'predictions.txt'
 
 def get_bot_updates():
     """Получить обновления для бота."""
-    url = f"https://api.telegram.org/bot{'8154608335:AAGEEbyODTJR6aVpyUU4VJQ-GTBHcCU4AZc'}/getUpdates"
+    url = f"https://api.telegram.org/bot{'вставить токен бота'}/getUpdates"
 
     try:
         response = requests.get(url)
@@ -74,7 +74,7 @@ def handle_prediction(update: Update, context):
 
 def main():
     """Запуск бота."""
-    application = Application.builder().token("8154608335:AAGEEbyODTJR6aVpyUU4VJQ-GTBHcCU4AZc").build()
+    application = Application.builder().token("вставить токен бота").build()
 
     # Обработчик команды /start
     application.add_handler(CommandHandler("start", start))
