@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Zada4nik" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn-python" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xlsx_parser_v2.0" vcs="Git" />
   </component>
 </project>
